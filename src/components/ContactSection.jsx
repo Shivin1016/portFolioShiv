@@ -26,7 +26,7 @@ export default function ContactSection() {
     try {
       // Send real email via Web3Forms API service directly to shivaniprajapati10jan@gmail.com
       const formData = new FormData();
-      formData.append('access_key', 'YOUR_WEB3FORMS_ACCESS_KEY'); // Free Web3Forms access key
+      formData.append('access_key', '49f00998-3b71-45ec-a0fe-299bf52e37c8'); // Free Web3Forms access key
       formData.append('name', formState.name);
       formData.append('email', formState.email);
       formData.append('subject', formState.subject || 'Portfolio Contact Message');
